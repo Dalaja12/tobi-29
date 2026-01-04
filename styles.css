@@ -4299,12 +4299,13 @@ body.fainted #mouth {
 /* ============================= */
 /* 📱 RESPONSIVE */
 /* ============================= */
-
 @media (max-width: 480px) {
     .cyber-notification {
         width: 90%;
-        right: 5%;
+        left: 50%;
+        right: auto;
         top: 70px;
+        transform: translateX(-50%);
     }
 
     .cyber-notification input {
@@ -4315,4 +4316,5 @@ body.fainted #mouth {
         width: 80%;
     }
 }
+
 
